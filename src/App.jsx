@@ -1,15 +1,13 @@
 import './App.css';
 import Card from './components/Card/Card';
-// import traficCard from './traficCard.json';
+import Content from './components/Content/Content';
 
 function App() {
   return (
     <>
       <div className="container">
-        {/* {tarifCard.map((card, i) => (
-          <Card key={i} {card} />
-        ))} */}
         <Card />
+        <Content />
       </div>
     </>
   );

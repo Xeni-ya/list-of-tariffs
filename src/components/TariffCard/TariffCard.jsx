@@ -1,32 +1,34 @@
 import PropTypes from 'prop-types';
-import './card.css';
+import './tariffCard.css';
 
-const Card = (props) => {
+const TariffCard = (props) => {
+  const card__item = props.price === "550" ? "card__item active" : "card__item";
+
   return (
-    <div className="card__item">
+    <div className={card__item}>
       <div className="card__item-header">
-        {props.title} {props.price}
+        Безлимитный {props.price}
       </div>
       <div className="card__item-price">
         руб
         <span className="card__price">{props.price}</span>
         /мес
       </div>
-      <div className='card__item-speed'>
+      <div className="card__item-speed">
         до <span>{props.speed}</span> Мбит/сек
       </div>
-      <div className='card__item-footer'>
+      <div className="card__item-footer">
         {props.description}
       </div>
     </div>
   );
 }
 
-Card.propTypes = {
+TariffCard.propTypes = {
   title: PropTypes.string,
   price: PropTypes.string,
   speed: PropTypes.string,
   description: PropTypes.string,
 };
 
-export default Card;
+export default TariffCard;

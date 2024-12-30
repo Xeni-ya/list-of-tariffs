@@ -5,10 +5,8 @@
   text-align: center;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

@@ -20,9 +20,12 @@
 
 body {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
 }
 
 h1 {

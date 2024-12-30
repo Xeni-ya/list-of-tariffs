@@ -1,9 +1,10 @@
-import React from 'react';
+
 import TariffCard from "../TariffCard/TariffCard";
+import './content.css';
 
 function Content() {
   return (
-    <React.Fragment>
+    <div className="container">
       <TariffCard
         color="#2cc1d5"
         price="300"
@@ -28,7 +29,7 @@ function Content() {
         speed="200"
         description="Объем включенного трафика не ограничен"
       />
-    </React.Fragment>
+    </div>
   );
 }
 

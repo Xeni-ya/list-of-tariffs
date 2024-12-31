@@ -6,10 +6,10 @@ const TariffCard = (props) => {
 
   return (
     <div className={card__item}>
-      <div className="card__item-header">
+      <div className="card__item-header" style={{ backgroundColor: props.colorHeader }}>
         Безлимитный {props.price}
       </div>
-      <div className="card__item-price">
+      <div className="card__item-price" style={{ backgroundColor: props.colorPrice }}>
         руб
         <span className="card__price">{props.price}</span>
         /мес

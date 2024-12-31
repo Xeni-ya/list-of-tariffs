@@ -11,7 +11,7 @@
 }
 
 .active:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .card__item-header {
@@ -28,7 +28,7 @@
 
 .card__price {
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.7em;
   align-items: center;
   margin: 10px;
 }

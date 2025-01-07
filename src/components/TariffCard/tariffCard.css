@@ -21,13 +21,24 @@
   font-size: 1.5em;
   background-color: #24ae8d;
   padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.card__price-currency {
+  display: flex;
+  align-items: flex-start;
 }
 
 .card__price {
   font-weight: bold;
   font-size: 1.7em;
-  align-items: center;
   margin: 10px;
+}
+
+.card__price-period {
+  display: flex;
+  align-self: flex-end;
 }
 
 .card__item-speed {

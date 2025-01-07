@@ -10,9 +10,9 @@ const TariffCard = (props) => {
         Безлимитный {props.price}
       </div>
       <div className="card__item-price" style={{ backgroundColor: props.colorPrice }}>
-        руб
+        <span className="card__price-currency">руб</span>
         <span className="card__price">{props.price}</span>
-        /мес
+        <span className="card__price-period">/мес</span>
       </div>
       <div className="card__item-speed">
         до <span>{props.speed}</span> Мбит/сек

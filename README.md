@@ -1,6 +1,6 @@
 # list-of-tariffs
 
-Список тарифов с выделение цены. «Тариф» выделен как компонент React
+Список тарифов с выделение цены. «Тариф» выделен как компонент React. Тариф с ценой 550р выделялся заметнее остальных
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

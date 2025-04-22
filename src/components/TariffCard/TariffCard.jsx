@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
 import './tariffCard.css';
 
-const TariffCard = (props) => {
+const TariffCard = (props, colorHeader, colorPrice) => {
   const card__item = props.price === "550" ? "card__item active" : "card__item";
 
   return (
     <div className={card__item}>
-      <div className="card__item-header" style={{ backgroundColor: props.colorHeader }}>
+      <div className="card__item-header" style={{ backgroundColor: colorHeader }}>
         Безлимитный {props.price}
       </div>
-      <div className="card__item-price" style={{ backgroundColor: props.colorPrice }}>
+      <div className="card__item-price" style={{ backgroundColor: colorPrice }}>
         <span className="card__price-currency">руб</span>
         <span className="card__price">{props.price}</span>
         <span className="card__price-period">/мес</span>

@@ -29,6 +29,8 @@ TariffCard.propTypes = {
   price: PropTypes.string,
   speed: PropTypes.string,
   description: PropTypes.string,
+  colorHeader: PropTypes.string,
+  colorPrice: PropTypes.string,
 };
 
 export default TariffCard;
